@@ -29,6 +29,19 @@
                  <version>8.0.33</version> <!-- Updated to latest stable version -->
                 </dependency>
         </dependencies>
+
+        <pluginRepositories>
+    <pluginRepository>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+    </pluginRepository>
+</pluginRepositories>
         
         <build>
                 <plugins>
